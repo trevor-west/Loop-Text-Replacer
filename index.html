@@ -11,5 +11,16 @@
 
   <script>
 
+    string = example.email1@gmail.com
+
+    let loopArray = [];
+
+    function loopReplace(string, x) {
+      for (let x = 0; x < 100; x++) {
+        string = `example.email${x}`;
+        loopArray.push(string);
+      }
+      console.log(loopArray);
+    }
   </script>
 </html>
