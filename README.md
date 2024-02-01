@@ -11,3 +11,6 @@ This could be useful for typing out a lot of similar sounding names for files, f
 
 This will be a useful function I can make for the future which will allow me to replace any text slightly 
 (e.g., when making multiple similar file names or folders, or like in the case above… or when changing dates or other data quickly)
+
+[Future]
+I want to edit more on to this program in the future, specifically: I want to make it so it can add more than just numbers, but also allow for inserting text for the second variable (not just the numbers generated on the for loop for "x"). This should make the program more usable and basically let the user create any number of same name items (with slight number or text variations)... mainly for like many file type names, folders, etc.
