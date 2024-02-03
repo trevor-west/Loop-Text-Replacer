@@ -12,10 +12,19 @@
   <script>
 
     let loopArray = [];
+    let string;
+    let x;
 
     // Change the string to whatever you want to iterate numerically as x in the for loop
     // Change the position of ${x} to change where the numbers are put
     // Change the loop number to decrease or increase iterations
+
+    function getString(string) {
+      prompt(`Please enter your string, ensuring to specify the string in backticks and ${x} e.g.,
+      example.email${x}@gmail.com the spot you want to be changed by loopReplace: `, string)
+      return string;
+    }
+    
     function loopReplace(string, x) {
       for (let x = 0; x <= 100; x++) {
         string = `example.email${x}@gmail.com`;
