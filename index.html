@@ -25,7 +25,10 @@
       return string = "`" + string + "`";
     }
 
-
+      function getX() {
+        x = prompt(`Please enter the value you would like for "x" which will determine the number of loops loopTextReplace will run: `);
+        return ++x;
+      }
     
     function loopTextReplace(string, x) {
       for (let x = 0; x <= 100; x++) {
