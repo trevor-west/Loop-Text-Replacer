@@ -19,9 +19,9 @@
     // Change the position of ${x} to change where the numbers are put
     // Change the loop number to decrease or increase iterations
 
-    function getString(string) {
-      prompt(`Please enter your string, ensuring to specify the string in backticks and ${x} e.g.,
-      example.email${x}@gmail.com the spot you want to be changed by loopReplace: `, string)
+    function getString() {
+      string = prompt(`Please enter your string, ensuring to specify the string in backticks and \${x} e.g.,
+      example.email\${x}@gmail.com the spot you want to be changed by loopReplace: `);
       return string;
     }
     
