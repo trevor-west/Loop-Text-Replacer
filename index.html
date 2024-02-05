@@ -22,12 +22,12 @@
     function getString() {
       string = prompt(`Please enter your string, ensuring to specify the string in backticks and \${x} e.g.,
       example.email\${x}@gmail.com the spot you want to be changed by loopReplace: `);
-      return string;
+      return string = "`" + string + "`";
     }
     
     function loopReplace(string, x) {
       for (let x = 0; x <= 100; x++) {
-        string = `example.email${x}@gmail.com`;
+        string = string;
         loopArray.push(string);
       }
       // console.log(loopArray);
