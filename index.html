@@ -22,7 +22,7 @@
     function getString() {
       string = prompt(`Please enter your string, ensuring to specify the string in backticks and \${x} e.g.,
       example.email\${x}@gmail.com the spot you want to be changed by loopReplace: `);
-      return string = "`" + string + "`";
+      return string;
     }
 
       function getX() {
@@ -34,10 +34,14 @@
         y = prompt(`Please enter the value you would like for "y" which will determine the ending position of the number of loops loopTextReplace will run: `);
         return y = +y;
       }
-    
+
     function loopTextReplace() {
+      loopArray = [];
+      
       for (x; x <= y; x++) {
+        string = "`" + string + "`";
         loopArray.push(string);
+        console.log(string);
       }
       let text = loopArray.join(", ");
       console.log(text);
